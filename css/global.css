@@ -1,0 +1,112 @@
+p {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 900;
+    font-style: normal;
+    background-color: rgba(0, 89, 255, 0.637);
+    padding: 2%;
+
+}
+
+.p1 {
+
+    background-color: rgb(255, 230, 0, 0.637);
+}
+
+.p2 {
+
+    background-color: rgb(255, 0, 0, 0.637);
+}
+
+.p3 {
+    background-color: rgb(9, 255, 0, 0.637);
+}
+
+.p4 {
+    background-color: rgb(251, 255, 0, 0.637);
+}
+
+.especial {
+    font-family: "Knewave", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 28px;
+    background-color: rgba(250, 235, 215, 0.582);
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    background-color: rgba(250, 235, 215, 0.219);
+}
+
+.l1 {
+    color: rgb(0, 4, 255);
+
+
+}
+
+.l2 {
+    color: rgb(103, 110, 5);
+
+}
+
+.l3 {
+    color: rgb(255, 0, 0);
+
+}
+
+.l4 {
+    font-weight: 900;
+    color: rgb(13, 83, 4);
+
+}
+
+
+
+
+
+
+
+
+h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+h3 {
+    font-family: "Pacifico", cursive;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+li {
+    font-family: "Pacifico", cursive;
+    font-weight: 600;
+    font-style: normal;
+    background-color: rgba(240, 248, 255, 0.144);
+}
+
+
+body {
+
+    background-image: url(/img/Fondo_mario.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.reparto_img {
+    border: ridge rgb(51, 128, 0) 10px;
+}
+
+.centro {
+    text-align: center;
+
+
+
+}
