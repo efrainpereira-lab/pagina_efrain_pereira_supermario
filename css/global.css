@@ -1,4 +1,5 @@
 p {
+    text-shadow: 10px;
     font-family: "Cedarville Cursive", cursive;
     font-weight: 900;
     font-style: normal;
@@ -96,9 +97,11 @@ body {
 
     background-image: url(../img/Fondo_mario.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
 
 }
+
 
 .reparto_img {
     border: ridge rgb(51, 128, 0) 10px;
