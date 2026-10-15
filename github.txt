@@ -1,0 +1,97 @@
+
+pag 0 home
+Super Mario Bros. es un videojuego de plataformas de desplazamiento lateral lanzado para Family Computer y Nintendo Entertainment System en 1985. Cambió la dinámica de juego respecto a su predecesor arcade de pantalla única, *Mario Bros.*, al incorporar pantallas con desplazamiento, lo que permitía niveles más extensos. Aunque no fue el primer juego de la franquicia Super Mario (el primero fue *Donkey Kong*), *Super Mario Bros.* es el más emblemático e introdujo varios elementos característicos de la saga, como los potenciadores, el Reino Champiñón, enemigos clásicos como los Goombas y la premisa básica de rescatar a la Princesa Peach de Bowser. Además de dar inicio a toda una serie de juegos de plataformas de Super Mario, el enorme éxito de *Super Mario Bros.* popularizó el género de desplazamiento lateral en su conjunto, contribuyó a reactivar la industria norteamericana de los videojuegos tras la crisis de 1983 y fue un factor clave en el éxito inicial de la Nintendo Entertainment System, consola con la que se incluía como título de lanzamiento. Hasta que fue superado por *Wii Sports*, *Super Mario Bros.* ostentó el récord del videojuego más vendido de todos los tiempos durante casi tres décadas, con más de 40 millones de copias vendidas en todo el mundo.
+con detalles de mario como que cada personaje de mario es un link que  te lleva a las otras paginas
+
+
+Que es super mario bros.? es un juego creado por nintento para su famosa consola nintendo entreteiment system (NES), en el cual controlamos a un fontanero que tiene
+que tiene habilidades unicas de salto lo cual es la mecanica principal del videojuego, sortear obstaculos adaptandose a la movilidad del personaje evitando caer en
+abismos sin fondo, en chocar conm enemigos y recoger valiosos recursos como hongos y estrellas que dotan de habilidades especiales a nuestro personaje mario.
+
+el primer super mario bros. salio a la venta en el 13 de septiembre de 1985, si bien, antes este personaje aparecio con el nombre de jumpman en donkey kong y con su 
+hermano luigi en mario bros, fue el super mario bros el que sento las bases de lo que seria no solo todos los juegos de mario sino lo que significaria para el
+mundo de los videojuegos. Super Mario bros. no solo es famoso por habver sido algo tan divertido y ser una moda pasajera, fue el videojuego que salvo a estos de
+una terrible crisis, en donde tanto desarrolladores como jugadores no sabian mas que hacer para que el juego fuera algo divertido, sumado a una gran saturacion de
+titulos malos que fueron creados para aprovechar el nuevo "boom" de los videojuegos, hizò que los jugadores empezaran a desconfiar de estos y que fuera solo una
+moda de los 80 70. Los desarrolladores de nintendo entre ellos shigeru miyamoto y takashi tezuka conocian muy bien este problema, asi que le empezaron a dar un giro
+fresco a la hora de diseñar videojuegos, haciendo no solo un juego que fuera divertido sino que no necesitara mas que una simple pantalla y ganas de jugar para que
+cualquiera pudiera pasarla bien. Esa mentalidad de diseño de videojuegos fue y es aùn hasta hoy en dia por lo cual super mario bros. sigue siendo con diferencia
+una de las marcas mas famosas y que cuenta con casi nulos fracasos en sus titulos, a diferencia en otros juegos de esa epoca populares que nunca pudieron ser lo que 
+fueron, super mario supò mantenerse durante el tiempo como el rey del diseño inteliogente de videojuegos.
+
+
+pag 1 la cabeza detras del primer mario (reparto)
+
+shigeru miyamoto
+y
+takashi tezuka
+
+como los programadores se enojaban con ellos por siempre cambiar de nivel
+
+hablar un poco de ellos y su carrera
+
+pag 2 el inteligente diseño de niveles (produccion y grabacion)
+(aqui se hablaria de la tematica de mas es menos y de como se diseño el primer nivel de super mario)
+
+·Como comentamos anteriormente en 1980 empezo la crisis, conocida en japon como el "Atari Shock", esta crisis comenzo con una caida del 97% de las ganancias en general
+por videojuegos, el cierre de grandes marcas desarrolladoras de videojuegos (como Coleco, Mattel/Intellivision y Magnavox) entre 1983 y 1984.
+
+·El equipo de nintendo entendio este problema como una "saturacion en el mercado", habia demasiados titulos los cuales eran caros y ademas eran aburridos. el consumidor
+promedio no podria diferenciar entre tantas malas opciones cual seria un juego con el cual podria pasar el rato. por eso la campaña de marketing de nintendo no solo se
+baso en darle un diseño original a sus juegos, sino de utilizar un "Sello de calidad de nintendo"
+
+img = sello de nintendo
+
+·con este sello de calidad el equipo de nintendo se aseguraba que los que veian sus cartuchos de videojuegos en el mercado supieran que eran de calidad.
+
+
+
+···El diseño de Super Mario Bros.
+
+Super Mario Bros. enseña al jugador sin requerir de ningun mensaje de texto ni un tutorial, marca clave de la franquicia durante todos los años posteriores.
+
+el primer nivel de super mario introduce la mecanica de salto, de llegar a la meta pòr la derecha y de los hongos "buenos" y hongos "malos".
+
+img del primer nivel
+
+$$en la primera pantalla el jugador se puede ver atascado ya que no podra ir a la izquierda, habra una pared invisible que no le deja avanzar.
+
+$$en la segundo pantalla al avanzar se encontrara con que un hongo empieza a acercarse, si el jugador no usa el boton de salto morira por lo cual al volver a intentar
+podra probar el boton de salto ocurriendo dos cosas, al chocar con uno de los bloques de interrogacion vera un hongo, y tambien al rebotar vera que al pisar sobre el enemigo
+podra matar a este.
+
+
+en esta simple pantalla se establecen todas las mecanicas principales de super mario bros. como sobrevivir ante enemigos y los diferentes objetos que le otorgan
+beneficios a nuestro jugador
+
+, Shigeru Miyamoto y Takashi Tezuka hablaron sobre el extraordinario nivel de reflexión invertido en el diseño, comenzando con la icónica apertura del Mundo 1-1: un pequeño Mario frente a un avión vacío. Después, el equipo consideró cómo enseñar al jugador varias habilidades a la vez: cómo evitar enemigos, cómo destruirlos, cómo funcionan los bloques de interrogación y cómo distinguir un Goomba enemigo de un champiñón útil. Las tres se logran en los primeros pasos de este nivel inicial.
+
+"Si aparece un enemigo sospechoso", afirma Miyamoto, "el jugador tendrá que saltar por encima". Correr hacia el primer Goomba simplemente te mata, una lección que el jugador solo necesita aprender una vez antes de descubrir que está mucho más seguro en el aire. Luego, al avanzar, el jugador descubre algunos ladrillos bajos y bloques de interrogación.
+
+"Si tenemos un bloque de interrogación, puede que intenten tocarlo también", continúa Miyamoto. Si ven una moneda, se alegrarán y querrán volver a intentarlo. Al tocar el segundo bloque, se libera un champiñón que se desliza y rebota en una tubería para lanzarse contra el personaje. El techo bajo dificulta mucho esquivarlo, y el champiñón golpea a Mario, pero en lugar de dañarlo, lo transforma en Super Mario. En cuestión de segundos, habrás aprendido cómo funcionan las recompensas y los peligros en el resto de Super Mario Bros.
+
+Produccion:
+A mediados de los años 80, no existían los motores gráficos comerciales (como Unity o Unreal) ni las herramientas digitales modernas para crear videojuegos.
+ El proceso era completamente artesanal y analógico:
+Diseño en papel cuadriculado: 
+Miyamoto y Tezuka dibujaban literalmente los niveles píxel a píxel a mano sobre hojas de papel gráfico. Cada cuadro del papel representaba un bloque o un elemento d
+el mapa. 
+El uso de papel cebolla: Si querían hacer una modificación en un nivel ya dibujado, colocaban papel cebolla (transparente) encima para trazar los cambios. 
+Esto se hacía para evitar tener que redibujar todo desde cero y mantener los costes controlados. 
+Traducción a código: Una vez finalizados los mapas en papel, los programadores Nakago y Morita tecleaban manualmente las coordenadas de cada elemento en
+ bases de datos para convertirlas en el código ensamblador (lenguaje de máquina) de 8 bits que la consola pudiera leer. 
+
+
+pag 3 los premios y el impacto de mario en el mundo (curiosidades y premios)
+como mario se volvio la cara de una empresa y un simbolo de calidad pura a pesar de todos los años
+
+pag 4 contacto
+
+
+////////////////////////////////////////////////
+Anotaciones nuevas
+*usart el border ridge en reparto
+*arreglar la imagen de fondo para que acompañe bien la pagina 
+*revisar clase 7 y 6
+*arreglar en reparto que queda mas a la izquierda que a la derecha
+hacer que queden centrados
