@@ -2,3 +2,9 @@ body {
     background-image: url(../img/404bowser.png);
 
 }
+
+p {
+    text-decoration-color: blue;
+    background-color: aquamarine;
+
+}
