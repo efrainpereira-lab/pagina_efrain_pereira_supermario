@@ -1,6 +1,6 @@
 p {
     text-shadow: 10px;
-    font-family: "Cedarville Cursive", cursive;
+
     font-weight: 900;
     font-style: normal;
     background-color: rgba(0, 89, 255, 0.637);
@@ -27,7 +27,7 @@ p {
 }
 
 .especial {
-    font-family: "Knewave", system-ui;
+
     font-weight: 800;
     font-style: normal;
     font-size: 28px;
@@ -35,7 +35,7 @@ p {
 }
 
 h1 {
-    font-family: "Pacifico", cursive;
+
     font-weight: 900;
     font-style: normal;
     font-size: 60px;
@@ -72,21 +72,21 @@ h1 {
 
 
 h2 {
-    font-family: "Pacifico", cursive;
+
     font-weight: 800;
     font-style: normal;
 
 }
 
 h3 {
-    font-family: "Pacifico", cursive;
+
     font-weight: 800;
     font-style: normal;
 
 }
 
 li {
-    font-family: "Pacifico", cursive;
+
     font-weight: 600;
     font-style: normal;
     background-color: rgba(240, 248, 255, 0.144);
