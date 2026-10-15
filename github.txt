@@ -90,8 +90,10 @@ pag 4 contacto
 
 ////////////////////////////////////////////////
 Anotaciones nuevas
-*usart el border ridge en reparto
-*arreglar la imagen de fondo para que acompañe bien la pagina 
-*revisar clase 7 y 6
-*arreglar en reparto que queda mas a la izquierda que a la derecha
-hacer que queden centrados
+*hacer que en reparto se use el cuadro de los creadores abajo la lista
+y a la derecha todo el texto usando flex, margin etc
+
+* resolver lo de 404 para que se pueda modificar bien
+
+*hacer las modificaciones indicadas por el profe:
+    * cambiar colores de letras con fondo para que se lean bien 
