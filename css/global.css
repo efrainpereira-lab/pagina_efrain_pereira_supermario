@@ -10,7 +10,7 @@ p {
 
 .p1 {
 
-    background-color: rgb(255, 230, 0, 0.637);
+    background-color: #ffe600a2;
 }
 
 .p2 {
@@ -64,6 +64,14 @@ h1 {
 
 }
 
+.repartoflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 500px;
+
+    margin: 20px;
+}
 
 
 
