@@ -2,6 +2,7 @@ body {
     background-image: url(../img/Fondo_mario.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 0%;
 }
 
 .error {
@@ -9,10 +10,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 20%;
-    text-shadow: 2px;
-    font-size: 0%;
+
+    font-size: 190%;
 }
 
+h1,
+p {
+    text-shadow: 2px;
+}
 
 p {
     text-decoration-color: blue;
