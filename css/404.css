@@ -4,6 +4,13 @@ body {
     background-size: cover;
 }
 
+.error {
+    text-align: center;
+    display: flex;
+
+}
+
+
 p {
     text-decoration-color: blue;
     background-color: aquamarine;
