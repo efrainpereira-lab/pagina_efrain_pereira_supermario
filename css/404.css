@@ -2,7 +2,7 @@ body {
     background-image: url(../img/Fondo_mario.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 0%;
+    background-size: 120vw 300vh;
 }
 
 .error {
