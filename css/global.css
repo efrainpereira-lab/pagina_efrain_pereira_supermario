@@ -1,6 +1,6 @@
 p {
-    text-shadow: 10px;
 
+    font-family: cursive;
     font-weight: 900;
     font-style: normal;
     background-color: rgba(0, 89, 255, 0.637);
@@ -35,7 +35,7 @@ p {
 }
 
 h1 {
-
+    font-family: cursive;
     font-weight: 900;
     font-style: normal;
     font-size: 60px;
