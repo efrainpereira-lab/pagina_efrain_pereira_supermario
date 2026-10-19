@@ -1,16 +1,17 @@
-p {
+p,
+li {
 
     font-family: cursive;
     font-weight: 900;
     font-style: normal;
     background-color: rgba(0, 89, 255, 0.637);
     padding: 2%;
-
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.733);
 }
 
 .p1 {
 
-    background-color: #ffe600a2;
+    background-color: rgb(255, 230, 0, 0.637);
 }
 
 .p2 {
@@ -26,8 +27,12 @@ p {
     background-color: rgb(251, 255, 0, 0.637);
 }
 
-.especial {
+.p5 {
+    background-color: rgba(0, 89, 255, 0.637);
+}
 
+.especial {
+    font-family: "Knewave", system-ui;
     font-weight: 800;
     font-style: normal;
     font-size: 28px;
@@ -35,7 +40,7 @@ p {
 }
 
 h1 {
-    font-family: cursive;
+    font-family: "Pacifico", cursive;
     font-weight: 900;
     font-style: normal;
     font-size: 60px;
@@ -64,13 +69,6 @@ h1 {
 
 }
 
-.repartoflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-
-}
 
 
 
@@ -79,21 +77,21 @@ h1 {
 
 
 h2 {
-
+    font-family: "Pacifico", cursive;
     font-weight: 800;
     font-style: normal;
 
 }
 
 h3 {
-
+    font-family: "Pacifico", cursive;
     font-weight: 800;
     font-style: normal;
 
 }
 
 li {
-
+    font-family: "Pacifico", cursive;
     font-weight: 600;
     font-style: normal;
     background-color: rgba(240, 248, 255, 0.144);
@@ -114,7 +112,31 @@ body {
     border: ridge rgb(51, 128, 0) 10px;
 }
 
+.repartoflex {
+
+    border: dashed red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+
+
+.lista_reparto {
+    border: solid green;
+    min-width: 50%;
+    max-height: 92vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-inline: auto;
+
+}
+
+
 .centro {
+
     text-align: center;
 
 
