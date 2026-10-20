@@ -134,6 +134,29 @@ body {
 
 }
 
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.212);
+}
+
+/* ARREGLAR ESTO PARA QUE NO SOBRE UN ESPACIO EN EL CUADRO EN FLEX */
+.header_flex_section {
+    text-align: right;
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+    background-image: url(../img/fondo_header.png);
+    /*
+    background-image: url(../img/404bowser.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 260%;
+
+}
 
 .centro {
 
