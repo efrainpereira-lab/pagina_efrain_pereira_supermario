@@ -135,6 +135,7 @@ body {
 }
 
 .header_flex {
+    z-index: 5;
     display: flex;
     justify-content: space-between;
     box-shadow: 1px 3px rgba(0, 0, 0, 0.212);
@@ -142,10 +143,12 @@ body {
 
 /* ARREGLAR ESTO PARA QUE NO SOBRE UN ESPACIO EN EL CUADRO EN FLEX */
 .header_flex_section {
+    z-index: 5;
     text-align: right;
 }
 
 header {
+    z-index: 5;
     position: sticky;
     top: 0;
 
