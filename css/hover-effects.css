@@ -1,6 +1,27 @@
 .holographic-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(214, 6, 6, 0.5);
+    opacity: 1;
+}
+
+
+.holographic-card img {
+
+    transition: opacity 0.5s ease-in-out;
+    /* Suaviza el cambio */
+}
+
+.img-hover {
+    opacity: 0;
+
+    /* Invisible por defecto */
+}
+
+.holographic-card:hover .img-norm {
+    opacity: 0;
+
+}
+
+.holographic-card:hover .img-hover {
+    opacity: 1;
 
 }
 
@@ -8,6 +29,12 @@
 
     -webkit-animation: puff-in-center 1.5s cubic-bezier(.6, -.28, .735, .045) both;
     animation: puff-in-center 1.5s cubic-bezier(.6, -.28, .735, .045) both
+}
+
+.slide2 {
+
+    -webkit-animation: puff-in-center 1.5s cubic-bezier(.6, -.28, .735, .045) both;
+    animation: puff-in-center 0.5s cubic-bezier(.6, -.28, .735, .045) both
 }
 
 /* ----------------------------------------------
@@ -52,3 +79,12 @@
         opacity: 1
     }
 }
+
+/*
+body {
+    transition: 4s;
+    /*filter: blur(10px);
+    filter: brightness(0%);
+
+}
+*/
