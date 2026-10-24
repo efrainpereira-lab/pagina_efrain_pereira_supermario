@@ -80,6 +80,11 @@
     }
 }
 
+.div-footer:hover {
+    transition: 0.5s;
+    transform: translateY(-4px) scale(1.02);
+}
+
 /*
 body {
     transition: 4s;

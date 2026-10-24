@@ -115,7 +115,7 @@ body {
 
 .repartoflex {
 
-    border: dashed red;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -144,8 +144,7 @@ body {
 
 /* ARREGLAR ESTO PARA QUE NO SOBRE UN ESPACIO EN EL CUADRO EN FLEX */
 .header_flex_section {
-    z-index: 5;
-    text-align: right;
+    display: flex;
 }
 
 header {
@@ -171,9 +170,15 @@ header {
 }
 
 footer {
-    display: flex;
+    margin-top: 10px;
     min-height: 50vh;
     border: ridge rgb(115, 255, 60) 10px;
+    background-image: url(../img/fondo_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-size: 100vw 50vh;
+
     /* display: flex;
     margin: 0;
     
@@ -183,5 +188,15 @@ footer {
     background-size: cover;
 
     background-size: 120vw 160vh;*/
+
+}
+
+.footerflex {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
 
 }

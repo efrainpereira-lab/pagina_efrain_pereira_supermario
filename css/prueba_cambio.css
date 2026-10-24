@@ -1,0 +1,63 @@
+.hover_header {
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.hover_header h4 {
+    opacity: 0;
+}
+
+.mario {
+    background-image: url(../img/mariopix.png);
+
+}
+
+.mario:hover {
+    background-image: url(../img/mariopix2.png);
+}
+
+.luigi {
+    background-image: url(../img/luigipix.png);
+
+}
+
+.luigi:hover {
+    background-image: url(../img/luigipix2.png);
+}
+
+.peach {
+    background-image: url(../img/pachpix.png);
+
+}
+
+.peach:hover {
+    background-image: url(../img/peachpix2.png);
+}
+
+.toad {
+    background-image: url(../img/toadpix.png);
+
+}
+
+.toad:hover {
+    background-image: url(../img/toadpix.png);
+}
+
+.yoshi {
+    background-image: url(../img/yoshipix.png);
+
+}
+
+.yoshi:hover {
+    background-image: url(../img/yoshipix2.png);
+}
+
+.bowser {
+    background-image: url(../img/bowserpix.png);
+
+}
+
+.bowser:hover {
+    background-image: url(../img/bowserpix2.png);
+}
