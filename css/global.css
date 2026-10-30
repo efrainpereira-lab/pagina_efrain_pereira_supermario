@@ -121,12 +121,15 @@ body {
     justify-content: space-around;
     gap: 20px;
 
+    section {
+        margin: auto auto auto;
+    }
 }
 
 
 
 .lista_reparto {
-    border: solid green;
+
     min-width: 50%;
     max-height: 92vh;
     margin-top: auto;
