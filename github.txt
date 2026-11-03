@@ -128,3 +128,9 @@ y a la derecha todo el texto usando flex, margin etc
 
 *hacer las modificaciones indicadas por el profe:
     * cambiar colores de letras con fondo para que se lean bien 
+
+
+    mejorar 404 paginas
+    agregar formulario
+    crear bien el efecto de muerte en 404
+    hacer que las cabecitas al pasar el mouse suban un toque
