@@ -12,28 +12,36 @@ body {
 .error {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 5% 20% 0% 20%;
 
     font-size: 190%;
 }
 
 h1,
-p {
+p,
+.pa {
     text-shadow: 2px;
 }
 
-p {
+p,
+.pa {
     box-shadow: rgba(127, 255, 212, 0.438) 8px 7px;
     background-color: rgb(127, 255, 212);
 
 }
 
+
+
+.a404 {
+    display: block;
+}
+
 /* efecto de mario muerto */
 
 .bounce-in-top {
-    -webkit-animation: bounce-in-top 1.1s 1.5s both;
-    animation: bounce-in-top 1.1s 1.5s both;
+    -webkit-animation: bounce-in-top 2s 1.5s both;
+    animation: bounce-in-top 2s 1.5s both;
 }
 
 

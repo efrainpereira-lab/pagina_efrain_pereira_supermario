@@ -134,3 +134,5 @@ y a la derecha todo el texto usando flex, margin etc
     agregar formulario
     crear bien el efecto de muerte en 404
     hacer que las cabecitas al pasar el mouse suban un toque
+
+    agregarle los width y height minimos y maximos a cada elemento de lo visto en la ultima clase
