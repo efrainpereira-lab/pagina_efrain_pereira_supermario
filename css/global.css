@@ -203,3 +203,24 @@ footer {
     gap: 20px;
 
 }
+
+.contacto_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    label {
+
+        background-color: aliceblue;
+    }
+
+    input {
+        background-image: url(../img/buu.png);
+        background-size: 1vw 1vh;
+        border: ridge rgb(238, 238, 238) 5px;
+
+
+    }
+
+}
