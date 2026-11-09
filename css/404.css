@@ -26,7 +26,8 @@ p,
 
 p,
 .pa {
-    box-shadow: rgba(127, 255, 212, 0.438) 8px 7px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.479) 8px 7px;
     background-color: rgb(127, 255, 212);
 
 }
@@ -38,6 +39,11 @@ p,
 }
 
 /* efecto de mario muerto */
+
+.bounce-in-top-rapido {
+    -webkit-animation: bounce-in-top 1s 1s both;
+    animation: bounce-in-top 1s 1s both;
+}
 
 .bounce-in-top {
     -webkit-animation: bounce-in-top 2s 1.5s both;
