@@ -155,8 +155,7 @@ header {
     top: 0;
 
     background-image: url(../img/fondo_header.png);
-    /*
-    background-image: url(../img/404bowser.png);*/
+
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 260%;
@@ -203,21 +202,48 @@ footer {
 
 }
 
+.radio_flex {
+    display: flex;
+}
+
 .contacto_form {
+
+
+
+    border: ridge blueviolet 5px;
+    background-image: url(../img/contactos\ form\ fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 180%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    max-height: 38vh;
+    margin: 20px auto 30px;
+    /*max-height: 300px;*/
+
+    border-radius: 20px;
+
 
 
     label {
+        font-size: 20px;
+        margin: 0px 0px 3px;
 
-        background-color: aliceblue;
+
+        img {
+            box-shadow: rgba(0, 0, 0, 0.479) 0px 0px;
+        }
+
     }
 
-    input {
-        background-image: url(../img/buu.png);
-        background-size: 1vw 1vh;
-        border: ridge rgb(238, 238, 238) 5px;
+    input,
+    select,
+    option {
+        background-image: url(../img/Fondo_mario.jpg);
+        background-size: 50% 300%;
+        font-size: 20px;
 
 
     }

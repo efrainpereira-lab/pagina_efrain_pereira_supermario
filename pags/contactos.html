@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/fonts.css">
+
     <link rel="shortcut icon" href="../img/mario_cabeza.png" type="image/x-icon">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,44 +54,96 @@
         </nav>
     </header>
     <main>
-        <h1 class="centro"><img src="../img/mario_cabeza.png" width="5%" alt="M">
-            contactos
-            <img src="../img/mario_cabeza.png" width="5%" alt="M">
-        </h1>
+        <article class="centro slide2">
+            <img src="../img/titulos/contactos titulo.png" width="70%" alt="premios y logros">
+        </article>
 
+        <h1 class="centro redaction-70-regular">Bowser quiere saber mas de vos:</h1>
         <form action="../pags/submit.html" method="get" class="contacto_form">
-            <label for="nombre">ingrese su nombre:</label>
-            <input type="text" id="nombre">
-            <label for="email">ingrese su email:</label>
+
+            <label for="nombre" class="redaction-70-regular">ingrese su nombre:</label>
+            <input type="text" required id="nombre">
+            <label for="email" class="redaction-70-regular">ingrese su email:</label>
             <input type="email" required name="email" id="email">
-            <p>personaje favorito</p>
-            <label for="fecha"> Fecha de nacimiento</label>
-            <input type="datetime" id="fecha">
+
+            <label for="fecha" class="redaction-70-regular"> Fecha de nacimiento</label>
+            <input required type="datetime-local" id="fecha">
+            <label for="personaje" class="redaction-70-regular">personaje favorito</label>
+
+            <section class="radio_flex">
+                <label>
+                    <img src="../img/bowserpix.png" width="30px" alt="bowser">
+                    <input type="radio" value="bowser" checked name="personaje" id=""></label>
+
+                <label><img src="../img/mariopix.png" width="30px" alt="mario">
+                    <input type="radio" value="mario" name="personaje" id="">
+                </label>
+                <label><img src="../img/pachpix.png" width="30px" alt="peach">
+                    <input type="radio" value="peach" name="personaje" id="">
+                </label>
+                <label><img src="../img/yoshipix.png" width="30px" alt="yoshi">
+                    <input type="radio" value="yoshi" name="personaje" id="">
+                </label>
+                <label><img src="../img/luigipix.png" width="30px" alt="luigi">
+                    <input type="radio" value="luigi" name="personaje" id="">
+                </label>
+            </section>
+            <label for="edad" class="redaction-70-regular">ingrese su edad:</label>
+            <input required type="number" min="10" max="99" name="edad" id="edad">
+
+            <label for="juego" class=" redaction-70-regular"> mejor juego clasico</label>
 
 
-            <label>mario
-                <input type="radio" id="personaje">
-            </label>
-            <label>mario
-                <input type="radio" id="personaje">
-            </label>
+            <select required name="juego" id="juego">
+                <option value="Super Mario Bros">Super Mario Bros.</option>
+                <option value="Super Mario: The lost Levels">Super Mario: The lost Levels</option>
+                <option value="Super Mario 2">Super Mario 2</option>
+                <option value="Super Mario Bros. 3">Super Mario Bros. 3</option>
+                <option value="Super Mario World">Super Mario World</option>
+                <option value="Super Mario Bros. 64">Super Mario Bros. 64</option>
 
-            <label>mario
-                <input type="radio" id="personaje">
-            </label>
+            </select>
+            <label for="pais" class=" redaction-70-regular"> Seleccione su pais</label>
+            <select required name="pais" id="pais">
+                <option value="" selected disabled>Pais</option>
+                <option value="arg">Argentina</option>
+                <option value="ch">chile</option>
+                <option value="mex">mexico</option>
+                <option value="per">peru</option>
+                <option value="par">paraguay</option>
+                <option value="uru">uruguay</option>
 
-            <label>mario
-                <input type="radio" id="personaje">
-            </label>
-
-
-
+            </select>
+            <label for="usuario" class="redaction-70-regular">ingrese su usuario:</label>
+            <input required type="text" placeholder="maximo 10 caracteres" maxlength="10" id="usuario">
+            <label for="contraseña" class="redaction-70-regular">ingrese su contraseña</label>
+            <input required type="password" placeholder="7 caracteres minimo" minlength="7" id="contraseña">
             <button type="submit"><img src="../img/moneda.png" alt=""></button>
         </form>
-        <p class="l3">IG: @Mario_kingdom_argentina</p>
-        <p class="l1">twitter: Mario_kingdom_argentina</p>
-        <p class="l4">whattssap: +56 9 11 2323-0296</p>
-        <p class="l2">youtube: Mario_kingdom_channel</p>
+
+        <article class="repartoflex">
+            <picture>
+                <img src="../img/twitter.jpg" width="200px" alt="twitter">
+                <p class="l1">twitter: Mario_kingdom_argentina</p>
+            </picture>
+
+            <picture>
+                <img src="../img/whattsap.jpg" width="200px" alt="whattsap">
+                <p class="l4">whattssap: +56 9 11 2323-0296</p>
+            </picture>
+            <picture>
+                <img src="../img/ig2.jpg" width="200px" alt="instagram">
+                <p class="l3">IG: @Mario_kingdom_argentina</p>
+            </picture>
+            <picture>
+                <img src="../img/youtube.jpg" width="200px" alt="youtube">
+                <p class="l2">youtube: Mario_kingdom_channel</p>
+            </picture>
+        </article>
+
+
+
+
     </main>
 
     <footer>
