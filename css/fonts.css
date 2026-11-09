@@ -8,5 +8,6 @@
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.479) 8px 7px;
     background-color: rgb(127, 255, 212);
+    background: linear-gradient(rgb(210, 243, 232), rgb(127, 255, 212));
     margin: 5vh 200px 10vh 200px;
 }
