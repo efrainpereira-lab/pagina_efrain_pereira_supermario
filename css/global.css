@@ -4,7 +4,7 @@ li {
     font-family: cursive;
     font-weight: 900;
     font-style: normal;
-    background-color: rgba(0, 89, 255, 0.637);
+    background: linear-gradient(rgba(20, 103, 255, 0.637), rgba(0, 0, 179, 0.637));
     padding: 2%;
     box-shadow: 1px 3px rgba(0, 0, 0, 0.733);
     backdrop-filter: blur(10px);
@@ -22,15 +22,18 @@ li {
 }
 
 .p3 {
-    background-color: rgb(9, 255, 0, 0.637);
+
+    background: linear-gradient(rgba(9, 255, 0, 0.637), rgba(0, 128, 0, 0.637));
+
 }
 
 .p4 {
-    background-color: rgb(251, 255, 0, 0.637);
+    background: linear-gradient(yellow, rgba(177, 159, 1, 0.637));
 }
 
 .p5 {
-    background-color: rgba(0, 89, 255, 0.637);
+    background: linear-gradient(rgba(0, 89, 255, 0.637), rgba(0, 0, 255, 0.637), );
+
 }
 
 .especial {
@@ -114,12 +117,38 @@ body {
 }
 
 .repartoflex {
-
+    max-height: 100vh;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
+
+
+    picture {
+        max-height: 40vh;
+        transition: 2.5s;
+        text-align: center;
+        border: ridge blueviolet 20px;
+
+        img {
+            transition: 3s;
+            width: 200px;
+        }
+
+        background-image: url(../img/contactos\ form\ fond.jpg);
+    }
+
+
+
+    picture:hover {
+        border: ridge blueviolet 21px;
+
+        img {
+            transition: 3s;
+            width: 250px;
+        }
+    }
 
     section {
         margin: auto auto auto;

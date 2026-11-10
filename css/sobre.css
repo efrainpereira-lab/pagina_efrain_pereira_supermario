@@ -1,0 +1,5 @@
+body {
+    transition: 3s;
+    background-image: url(../img/fondo_sobre.jpg);
+    background-size: 100vw 180vh;
+}
