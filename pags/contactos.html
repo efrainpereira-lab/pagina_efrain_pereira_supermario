@@ -28,24 +28,24 @@
                 <section class="header_flex_section">
                     <div><img src="../img/buu.png" width="90%" height="100%" alt="estr_col"></div>
                     <div class="mario hover_header"><a href="../index.html">
-                            <h4 class="centro">h</h4>
+                            <p class="centro">h</p>
                         </a></div>
                     <div class="luigi hover_header"> <a href="../pags/reparto.html">
-                            <h4 class="centro">h</h4>
+                            <p class="centro">h</p>
                         </a></div>
                     <div class="peach hover_header"><a href="../pags/Produccion_y_grabacion.html">
-                            <h4 class="centro">h</h4>
+                            <p class="centro">h</p>
                         </a></div>
                 </section>
                 <section class="header_flex_section">
                     <div class="toad hover_header"><a href="../pags/sobre.html">
-                            <h4 class="centro">h</h4>
+                            <p class="centro">h</p>
                         </a></div>
                     <div class="yoshi hover_header"><a href="../pags/premios_y_logros.html">
-                            <h4 class="centro">h</h4>
+                            <p class="centro">h</p>
                         </a></div>
                     <div class="bowser hover_header"><a href="../pags/contactos.html">
-                            <h4 class="centro">h</h4>
+                            <p class="centro">h</p>
                         </a></div>
                     <div><img src="../img/estr_col.png" width="90%" height="100%" alt="estr_col"></div>
                 </section>
@@ -60,66 +60,72 @@
         </article>
 
         <h1 class="centro redaction-70-regular">Bowser quiere saber mas de vos:</h1>
-        <form action="../pags/submit.html" method="get" class="contacto_form">
+        <form action="../pags/submit.html" method="get" class="contacto_form repartoflex">
+            <section>
+                <label for="nombre" class="redaction-70-regular">ingrese su nombre:</label>
+                <input type="text" required id="nombre">
+                <label for="email" class="redaction-70-regular">ingrese su email:</label>
+                <input type="email" required name="email" id="email">
 
-            <label for="nombre" class="redaction-70-regular">ingrese su nombre:</label>
-            <input type="text" required id="nombre">
-            <label for="email" class="redaction-70-regular">ingrese su email:</label>
-            <input type="email" required name="email" id="email">
+                <label for="fecha" class="redaction-70-regular"> Fecha de nacimiento</label>
+                <input required type="datetime-local" id="fecha">
+                <label for="personaje" class="redaction-70-regular">personaje favorito</label>
 
-            <label for="fecha" class="redaction-70-regular"> Fecha de nacimiento</label>
-            <input required type="datetime-local" id="fecha">
-            <label for="personaje" class="redaction-70-regular">personaje favorito</label>
+                <section class="radio_flex">
+                    <label>
+                        <img src="../img/bowserpix.png" width="30px" alt="bowser">
+                        <input type="radio" value="bowser" checked name="personaje" id=""></label>
 
-            <section class="radio_flex">
-                <label>
-                    <img src="../img/bowserpix.png" width="30px" alt="bowser">
-                    <input type="radio" value="bowser" checked name="personaje" id=""></label>
-
-                <label><img src="../img/mariopix.png" width="30px" alt="mario">
-                    <input type="radio" value="mario" name="personaje" id="">
-                </label>
-                <label><img src="../img/pachpix.png" width="30px" alt="peach">
-                    <input type="radio" value="peach" name="personaje" id="">
-                </label>
-                <label><img src="../img/yoshipix.png" width="30px" alt="yoshi">
-                    <input type="radio" value="yoshi" name="personaje" id="">
-                </label>
-                <label><img src="../img/luigipix.png" width="30px" alt="luigi">
-                    <input type="radio" value="luigi" name="personaje" id="">
-                </label>
+                    <label><img src="../img/mariopix.png" width="30px" alt="mario">
+                        <input type="radio" value="mario" name="personaje" id="">
+                    </label>
+                    <label><img src="../img/pachpix.png" width="30px" alt="peach">
+                        <input type="radio" value="peach" name="personaje" id="">
+                    </label>
+                    <label><img src="../img/yoshipix.png" width="30px" alt="yoshi">
+                        <input type="radio" value="yoshi" name="personaje" id="">
+                    </label>
+                    <label><img src="../img/luigipix.png" width="30px" alt="luigi">
+                        <input type="radio" value="luigi" name="personaje" id="">
+                    </label>
+                </section>
+                <label for="edad" class="redaction-70-regular">ingrese su edad:</label>
+                <input required type="number" min="10" max="99" name="edad" id="edad">
             </section>
-            <label for="edad" class="redaction-70-regular">ingrese su edad:</label>
-            <input required type="number" min="10" max="99" name="edad" id="edad">
+            <section>
+                <label for="text" class="redaction-70-regular"> danos tu opinion!</label>
+                <textarea name="text" id="text" class="text_box"></textarea>
+            </section>
+            <section>
+                <label for="juego" class=" redaction-70-regular"> mejor juego clasico</label>
 
-            <label for="juego" class=" redaction-70-regular"> mejor juego clasico</label>
 
+                <select required name="juego" id="juego">
+                    <option value="Super Mario Bros">Super Mario Bros.</option>
+                    <option value="Super Mario: The lost Levels">Super Mario: The lost Levels</option>
+                    <option value="Super Mario 2">Super Mario 2</option>
+                    <option value="Super Mario Bros. 3">Super Mario Bros. 3</option>
+                    <option value="Super Mario World">Super Mario World</option>
+                    <option value="Super Mario Bros. 64">Super Mario Bros. 64</option>
 
-            <select required name="juego" id="juego">
-                <option value="Super Mario Bros">Super Mario Bros.</option>
-                <option value="Super Mario: The lost Levels">Super Mario: The lost Levels</option>
-                <option value="Super Mario 2">Super Mario 2</option>
-                <option value="Super Mario Bros. 3">Super Mario Bros. 3</option>
-                <option value="Super Mario World">Super Mario World</option>
-                <option value="Super Mario Bros. 64">Super Mario Bros. 64</option>
+                </select>
+                <label for="pais" class=" redaction-70-regular"> Seleccione su pais</label>
+                <select required name="pais" id="pais">
+                    <option value="" selected disabled>Pais</option>
+                    <option value="arg">Argentina</option>
+                    <option value="ch">chile</option>
+                    <option value="mex">mexico</option>
+                    <option value="per">peru</option>
+                    <option value="par">paraguay</option>
+                    <option value="uru">uruguay</option>
 
-            </select>
-            <label for="pais" class=" redaction-70-regular"> Seleccione su pais</label>
-            <select required name="pais" id="pais">
-                <option value="" selected disabled>Pais</option>
-                <option value="arg">Argentina</option>
-                <option value="ch">chile</option>
-                <option value="mex">mexico</option>
-                <option value="per">peru</option>
-                <option value="par">paraguay</option>
-                <option value="uru">uruguay</option>
-
-            </select>
-            <label for="usuario" class="redaction-70-regular">ingrese su usuario:</label>
-            <input required type="text" placeholder="maximo 10 caracteres" maxlength="10" id="usuario">
-            <label for="contraseña" class="redaction-70-regular">ingrese su contraseña</label>
-            <input required type="password" placeholder="7 caracteres minimo" minlength="7" id="contraseña">
-            <button type="submit"><img src="../img/moneda.png" alt=""></button>
+                </select>
+                <label for="usuario" class="redaction-70-regular">ingrese su usuario:</label>
+                <input required type="text" placeholder="maximo 10 caracteres" maxlength="10" id="usuario">
+                <label for="contraseña" class="redaction-70-regular">ingrese su contraseña</label>
+                <input required type="password" placeholder="7 caracteres minimo" minlength="7" id="contraseña">
+                <button type="submit"><img src="../img/moneda.png" alt=""></button>
+            </section>
         </form>
 
         <article class="repartoflex">

@@ -75,19 +75,7 @@ li {
 
 
 
-h2 {
-    font-family: "Pacifico", cursive;
-    font-weight: 800;
-    font-style: normal;
 
-}
-
-h3 {
-    font-family: "Pacifico", cursive;
-    font-weight: 800;
-    font-style: normal;
-
-}
 
 li {
     font-family: "Pacifico", cursive;
@@ -125,34 +113,7 @@ body {
     gap: 20px;
 
 
-    picture {
-        max-height: 40vh;
-        transition: 2.5s;
-        text-align: center;
-        border: ridge blueviolet 20px;
 
-        img {
-            transition: 3s;
-            width: 200px;
-        }
-
-        background-image: url(../img/contactos\ form\ fond.jpg);
-    }
-
-
-
-    picture:hover {
-        border: ridge blueviolet 21px;
-
-        img {
-            transition: 3s;
-            width: 250px;
-        }
-    }
-
-    section {
-        margin: auto auto auto;
-    }
 }
 
 
@@ -229,53 +190,5 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
-
-}
-
-.radio_flex {
-    display: flex;
-}
-
-.contacto_form {
-
-
-
-    border: ridge blueviolet 5px;
-    background-image: url(../img/contactos\ form\ fond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 180%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    max-height: 38vh;
-    margin: 20px auto 30px;
-    /*max-height: 300px;*/
-
-    border-radius: 20px;
-
-
-
-    label {
-        font-size: 20px;
-        margin: 0px 0px 3px;
-
-
-        img {
-            box-shadow: rgba(0, 0, 0, 0.479) 0px 0px;
-        }
-
-    }
-
-    input,
-    select,
-    option {
-        background-image: url(../img/Fondo_mario.jpg);
-        background-size: 50% 300%;
-        font-size: 20px;
-
-
-    }
 
 }

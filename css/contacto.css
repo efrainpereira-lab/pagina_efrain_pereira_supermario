@@ -2,3 +2,116 @@ main {
     max-height: 157vh;
     margin-bottom: 50px;
 }
+
+.repartoflex {
+    picture {
+        max-height: 40vh;
+        transition: 2.5s;
+        text-align: center;
+        border: ridge blueviolet 20px;
+
+        img {
+            transition: 3s;
+            width: 200px;
+        }
+
+        background-image: url(../img/contactos\ form\ fond.jpg);
+    }
+
+
+
+    picture:hover {
+        border: ridge blueviolet 21px;
+
+        img {
+            transition: 3s;
+            width: 250px;
+        }
+    }
+
+    section {
+        margin: auto auto auto;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .radio_flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+.contacto_form {
+
+
+
+    border: ridge blueviolet 5px;
+    background-image: url(../img/contactos\ form\ fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 180%;
+    /* display: flex;
+    align-items: center;
+    flex-direction: row;
+*/
+    max-height: 38vh;
+    margin: 20px auto 30px;
+    /*max-height: 300px;*/
+
+    border-radius: 20px;
+
+
+
+    label {
+        font-size: 20px;
+        margin: 0px 0px 3px;
+
+
+        img {
+            box-shadow: rgba(0, 0, 0, 0.479) 0px 0px;
+        }
+
+    }
+
+    input,
+    select,
+    option {
+        background-image: url(../img/Fondo_mario.jpg);
+        background-size: 50% 300%;
+        font-size: 20px;
+
+
+    }
+
+    textarea {
+        font-family: "Redaction 70", sans-serif;
+        color: #ffffff;
+        border: 1px solid #cccccc;
+        background-image: url(../img/fondo_sobre.jpg);
+        background-size: 100% 100%;
+        font-size: 20px;
+
+    }
+
+
+    .text_box {
+        transition: all 3s;
+        filter: blur(30px);
+        height: 100px;
+        width: 50px;
+    }
+
+    .text_box:hover {
+        transition: filter 1.5s ease, height 1.5s ease, width 1.5 ease;
+        filter: blur(0px);
+        width: 200px;
+        height: 200px;
+        border: ridge violet 10px;
+    }
+}
