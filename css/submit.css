@@ -1,4 +1,35 @@
 body {
     background-image: url(../img/fondo_mario_noche.jpg);
+    position: absolute;
+    overflow-x: hidden;
+}
 
+.flex_submit {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .bowser {
+        min-width: 500px;
+
+
+
+        img {
+            max-width: 200%;
+            position: absolute;
+            right: -100px;
+            top: 150px;
+            z-index: -2;
+        }
+    }
+
+    .texto {
+        min-width: 600px;
+        max-height: 400px;
+
+        h2 {
+            max-height: 400px;
+            min-width: 600px;
+            margin: 5px auto 5px;
+        }
+    }
 }
