@@ -83,6 +83,18 @@
 .div-footer:hover {
     transition: 0.5s;
     transform: translateY(-4px) scale(1.02);
+
+    p:hover {
+        transition: 0.5s;
+        background: linear-gradient(rgba(20, 103, 255, 0.637), rgba(72, 72, 250, 0.637));
+    }
+
+}
+
+.div-footer {
+    transition: 1.5s;
+    transform: translateY(1) scale(1);
+
 }
 
 /*
