@@ -3,7 +3,7 @@ li {
 
     font-family: cursive;
     font-weight: 900;
-    font-style: normal;
+    font-size: 1.2rem;
     background: linear-gradient(rgba(20, 103, 255, 0.637), rgba(0, 0, 179, 0.637));
     padding: 2%;
     box-shadow: 1px 3px rgba(0, 0, 0, 0.733);
@@ -37,11 +37,12 @@ li {
 }
 
 .especial {
-    font-family: "Knewave", system-ui;
+
     font-weight: 800;
-    font-style: normal;
+
     font-size: 28px;
-    background-color: rgba(250, 235, 215, 0.582);
+
+
 }
 
 
@@ -114,10 +115,17 @@ body {
 
     section {
         margin: auto auto auto;
+
+    }
+
+    .reparto_caja {
+        height: 100vh;
+        overflow-inline: auto;
     }
 
 
 }
+
 
 
 

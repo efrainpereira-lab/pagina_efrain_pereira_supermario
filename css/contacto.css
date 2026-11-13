@@ -1,16 +1,30 @@
+.redaction-70-regular {
+    padding: 7px;
+
+}
+
+h2.redaction-70-regular {
+    margin: 5vh 350px 10vh 350px;
+    font-size: 30px;
+}
+
 main {
-    max-height: 157vh;
-    margin-bottom: 50px;
+    max-height: 178vh;
+    margin-bottom: 140px;
+
 }
 
 .repartoflex {
+
     picture {
-        max-height: 40vh;
+
         transition: 2.5s;
         text-align: center;
         border: ridge blueviolet 20px;
 
+
         img {
+
             transition: 3s;
             width: 200px;
         }
@@ -23,8 +37,10 @@ main {
     picture:hover {
         border: ridge blueviolet 21px;
 
+
         img {
             transition: 3s;
+
             width: 250px;
         }
     }
@@ -60,7 +76,7 @@ main {
     align-items: center;
     flex-direction: row;
 */
-    max-height: 38vh;
+
     margin: 20px auto 30px;
     /*max-height: 300px;*/
 
@@ -70,7 +86,7 @@ main {
 
     label {
         font-size: 20px;
-        margin: 0px 0px 3px;
+        margin: 10px auto 10px auto;
 
 
         img {
@@ -82,6 +98,7 @@ main {
     input,
     select,
     option {
+
         background-image: url(../img/Fondo_mario.jpg);
         background-size: 50% 300%;
         font-size: 20px;
@@ -93,25 +110,16 @@ main {
         font-family: "Redaction 70", sans-serif;
         color: #ffffff;
         border: 1px solid #cccccc;
-        background-image: url(../img/fondo_sobre.jpg);
+        background-image: url(../img/fondo_mario_noche.jpg);
         background-size: 100% 100%;
         font-size: 20px;
-
-    }
-
-
-    .text_box {
-        transition: all 3s;
-        filter: blur(30px);
-        height: 100px;
-        width: 50px;
-    }
-
-    .text_box:hover {
-        transition: filter 1.5s ease, height 1.5s ease, width 1.5 ease;
-        filter: blur(0px);
         width: 200px;
         height: 200px;
         border: ridge violet 10px;
+
     }
+
+
+
+
 }
